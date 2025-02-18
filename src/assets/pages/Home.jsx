@@ -1,5 +1,5 @@
 import MovieCard from "../components/moviecard";
-import favorites from "./favourite";
+import favorites from "./favorites";
 import { useState } from "react";
 function Home() {
   const [search, setSearch] = useState("");
