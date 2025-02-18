@@ -1,9 +1,11 @@
-import './App.css'
-import Home from './assets/pages/Home';
+import "./App.css";
+import Home from "./assets/pages/Home";
 
 function App() {
-    return(
-        <div> < Home /> </div>
-    );
+  return (
+    <div>
+      <Home />
+    </div>
+  );
 }
-export default App
+export default App;
