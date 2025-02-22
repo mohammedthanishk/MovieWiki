@@ -8,7 +8,7 @@ function Home() {
     {
       id: "01",
       name: "Enthiran",
-      url: "",
+      url: "null",
       alt: "Enthiran.jpg",
       release_date: "2010",
       info: "",
@@ -16,10 +16,24 @@ function Home() {
     {
       id: "02",
       name: "Anjan",
-      url: "",
+      url: "null",
       alt: "Anjan.jpg",
       release_date: "2011",
       info: "",
+    },
+    {
+      id: "03",
+      name: "Bahubali",
+      url: "null",
+      alt: "Bahubali.jpg",
+      release_date: "2012",
+    },
+    {
+      id: "04",
+      name: "Bahubali",
+      url: "null",
+      alt: "Bahubali.jpg",
+      release_date: "2012",
     },
   ];
   const handlesearch = (e) => {

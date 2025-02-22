@@ -1,0 +1,11 @@
+.card-arrangements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 200px;
+
+}
+.movie-card{
+    width: 400px;
+    height: 600px;
+}
