@@ -1,4 +1,4 @@
-function MovieCard({ movie }) {
+function MovieCard({ movie , Overview}) {
   function likeClicked() {
     return alert("clicked!");
   }

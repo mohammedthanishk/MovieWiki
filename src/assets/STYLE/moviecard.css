@@ -1,11 +1,36 @@
 .card-arrangements{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-top: 200px;
+    padding-left: 20px;
+
 
 }
 .movie-card{
     width: 400px;
-    height: 600px;
+    height: 500px;
+    padding-right: 10px;
+    border: 2px solid tan;
+}
+.movie-card h3{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: coral;
+}
+
+.movie-card p{
+    color: rgb(68, 162, 190);
+}
+.movie-pic{
+    width: 100%;
+    object-fit: cover;
+}
+.searchbar{
+    margin-top: 25px;
+    height: 50px;
+    width: 200px;
+    cursor: text; 
+    tec: ;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
 }

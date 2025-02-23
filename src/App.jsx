@@ -1,11 +1,11 @@
-import {Routes, Route} from "react-router-dom"
-import Favorites from "./assets/pages/Favorites";
-import "./assets/STYLE/moviecard.css"
-import { Routes, Route } from "react-router-dom";
+import {Routes,Route} from "react-router-dom";
+import "./assets/STYLE/moviecard.css";
 import Favorites from "./assets/pages/Favorites";
 import "./App.css";
 import Home from "./assets/pages/Home";
-import NavBar from "./assets/components/navbar";
+import NavBar from "./assets/components/NavBar";
+import "./assets/STYLE/navbar.css";
+
 
 function App() {
   return (

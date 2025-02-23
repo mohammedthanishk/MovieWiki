@@ -1,5 +1,4 @@
 import MovieCard from "../components/moviecard";
-import Favorites from "./Favorites";
 import { useState } from "react";
 function Home() {
   const [search, setSearch] = useState("");
@@ -8,7 +7,7 @@ function Home() {
     {
       id: "01",
       name: "Enthiran",
-      url: "null",
+      url: "public/images/enthiran.jpg",
       alt: "Enthiran.jpg",
       release_date: "2010",
       info: "",
@@ -16,7 +15,7 @@ function Home() {
     {
       id: "02",
       name: "Anjan",
-      url: "null",
+      url: "public/images/anjan.jpg",
       alt: "Anjan.jpg",
       release_date: "2011",
       info: "",
@@ -24,14 +23,43 @@ function Home() {
     {
       id: "03",
       name: "Bahubali",
-      url: "null",
-      alt: "Bahubali.jpg",
+      url: "public/images/asuran.jpg",
+      alt: "asuran.jpg",
       release_date: "2012",
     },
     {
       id: "04",
       name: "Bahubali",
-      url: "null",
+      url: "public/images/bahubali.jpg",
+      alt: "Bahubali.jpg",
+      release_date: "2012",
+    },{
+      id: "01",
+      name: "Enthiran",
+      url: "public/images/enthiran.jpg",
+      alt: "Enthiran.jpg",
+      release_date: "2010",
+      info: "",
+    },
+    {
+      id: "02",
+      name: "Anjan",
+      url: "public/images/anjan.jpg",
+      alt: "Anjan.jpg",
+      release_date: "2011",
+      info: "",
+    },
+    {
+      id: "03",
+      name: "Bahubali",
+      url: "public/images/asuran.jpg",
+      alt: "asuran.jpg",
+      release_date: "2012",
+    },
+    {
+      id: "04",
+      name: "Bahubali",
+      url: "public/images/bahubali.jpg",
       alt: "Bahubali.jpg",
       release_date: "2012",
     },
@@ -42,7 +70,7 @@ function Home() {
   };
   return (
     <div className="Home">
-      <form onSubmit={handlesearch} className="Search-form">
+      <form onSubmit={handlesearch} className="Search-Form" id="search">
         <input
           type="text"
           placeholder="search the movie"
@@ -57,6 +85,7 @@ function Home() {
           <MovieCard movie={movie} key={movie.id} />
         ))}
       </div>
+      
     </div>
   );
 }
